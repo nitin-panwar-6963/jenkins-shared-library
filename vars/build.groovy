@@ -3,3 +3,4 @@ def call(String image){
   sh "sleep 5s"
   sh "docker build -t ${image} . "
   echo "your image is buil succesfully...."
+}
