@@ -3,3 +3,4 @@ def call(){
   sh "sleep 5s"
   sh "docker compose up -d"
   echo "your app is deploy succesfull"
+}
